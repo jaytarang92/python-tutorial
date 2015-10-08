@@ -1,4 +1,4 @@
-__author__ = "Jasmit Tarang"
+__author__ = "J_Hack92"
 
 
 class FileHandler:
@@ -21,7 +21,3 @@ class FileHandler:
         with open(self.fname, 'a') as txtfile:
             txtfile.write(self.crap)
             txtfile.close()
-
-
-fh = FileHandler("tutorial.txt", "this is self.crap yo!!")
-fh.write2file()
